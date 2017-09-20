@@ -1,0 +1,22 @@
+{
+  "name": "wjanoti/lendo21",
+  "description": "Lendo technical test",
+  "type": "project",
+  "authors": [
+    {
+      "name": "William Janoti",
+      "email": "wjanoti@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^6.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "":  "./src/"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --colors='always' --verbose tests/"
+  }
+}

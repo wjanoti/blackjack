@@ -1,0 +1,18 @@
+# LENDO technical test
+
+### Requirements
+  - PHP 7.1
+  - Composer 
+
+### Tests
+
+```sh
+$ composer test
+```
+  
+### Running
+
+```sh
+$ composer install
+$ php lendo21.php <deckFileName>
+````
