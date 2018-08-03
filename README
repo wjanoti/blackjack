@@ -1,16 +1,9 @@
-# LENDO technical test
-
-### Requirements
-  - PHP 7.1
-  - Composer 
-
-### Tests
-
+### Test
 ```sh
 $ composer test
 ```
   
-### Running
+### Run
 
 ```sh
 $ composer install
